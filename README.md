@@ -32,7 +32,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Click here](https://github.com/ghks0201/order-summary-component)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Click here](https://ghks0201.github.io/order-summary-component/)
 
 ## My process
 
