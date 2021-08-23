@@ -1,7 +1,7 @@
 body {
 	background-image: url(images/pattern-background-desktop.svg);
 	background-color: hsl(225, 100%, 98%);
-	background-repeat: no-repeat;
+	background-repeat: repeat-x;
 	font-family: "Red Hat Display", sans-serif;
 	font-size: 16px;
 }
@@ -83,7 +83,17 @@ button {
 	box-shadow: 0px 15px 20px hsl(225, 100%, 94%);
 }
 
+.proceed-btn:hover {
+	background-color: hsl(225, 100%, 98%);
+	color: hsl(223, 47%, 23%);
+}
+
 .cancel-btn {
 	background-color: transparent;
 	color: hsl(224, 23%, 55%);
+}
+
+.cancel-btn:hover {
+	background-color: hsl(245, 75%, 52%);
+	color: white;
 }
