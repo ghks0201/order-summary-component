@@ -1,0 +1,89 @@
+body {
+	background-image: url(images/pattern-background-desktop.svg);
+	background-color: hsl(225, 100%, 98%);
+	background-repeat: no-repeat;
+	font-family: "Red Hat Display", sans-serif;
+	font-size: 16px;
+}
+
+main {
+	max-width: 450px;
+	margin: auto;
+	text-align: center;
+	background-color: white;
+	padding: 0;
+	border-radius: 20px 20px 0 0;
+}
+
+h1 {
+	color: hsl(223, 47%, 23%);
+	font-weight: 900;
+}
+
+p {
+	color: hsl(224, 23%, 55%);
+	line-height: 1.5;
+}
+
+button {
+	width: 100%;
+	padding: 5%;
+	font-family: inherit;
+	font-weight: 700;
+	font-size: inherit;
+	border: none;
+	border-radius: 10px;
+}
+
+.order {
+	padding: 5% 10%;
+	margin: auto;
+}
+
+.banner-img {
+	width: 100%;
+	border-radius: 20px 20px 0 0;
+}
+
+.tagline {
+	padding: 0 5% 3%;
+}
+
+.plan {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	margin-bottom: 10%;
+	padding: 7% 5%;
+	background-color: hsl(225, 100%, 98%);
+	border-radius: 10px;
+}
+
+.plan-detail {
+	text-align: left;
+	flex-grow: 0.5;
+}
+
+.plan-detail h2 {
+	margin-top: 0;
+	margin-bottom: 3%;
+	font-weight: 900;
+	font-size: 1.2rem;
+	color: hsl(223, 47%, 23%);
+}
+
+.plan-detail p {
+	margin: 0 auto;
+}
+
+.proceed-btn {
+	margin-bottom: 5%;
+	background-color: hsl(245, 75%, 52%);
+	color: white;
+	box-shadow: 0px 15px 20px hsl(225, 100%, 94%);
+}
+
+.cancel-btn {
+	background-color: transparent;
+	color: hsl(224, 23%, 55%);
+}
